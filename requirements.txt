@@ -1,0 +1,38 @@
+# Core FHE dependencies
+# Note: SEAL-Python needs to be installed separately via setup.py
+
+# Web framework
+Flask==3.1.1
+Werkzeug==3.1.3
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+itsdangerous==2.2.0
+click==8.2.1
+blinker==1.9.0
+urllib3==2.5.0
+python-dateutil==2.9.0.post0
+jmespath==1.0.1
+s3transfer==0.13.0
+colorama==0.4.6
+six==1.17.0
+
+# Data processing
+numpy==1.24.3
+pandas==2.0.3
+
+# HTTP requests
+requests==2.31.0
+
+# AWS integration
+boto3==1.38.46
+botocore==1.38.46
+
+# Development and testing
+pytest==7.4.2
+pytest-cov==4.1.0
+
+# Utilities
+# python-dateutil is already defined above
+
+# Performance monitoring
+psutil==5.9.5 
