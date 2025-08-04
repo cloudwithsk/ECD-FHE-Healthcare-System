@@ -1,0 +1,272 @@
+    1  cd C:\Users\gunan\Downloads
+    2  cd C:\Users\gunan\Downloads\SEAL
+    3  /c/Users/gunan/Downloads/SEAL
+    4  cd /c/Users/gunan/Downloads
+    5  git clone https://github.com/Microsoft/SEAL
+    6  cd SEAL
+    7  ls
+    8  cmake --version
+    9  ninja --version
+   10  git clone https://github.com/Huelse/SEAL-Python.git 
+   11  cd SEAL-python
+   12  [200~git submodule update --init --recursive
+   13  git submodule update --init --recursive
+   14  cd C:\Users\gunan\Downloads\SEAL-Python
+   15  cd C/Users/gunan/Downloads/SEAL-Python
+   16  cd /c/Users/gunan/Downloads/SEAL-Python
+   17  git submodule update --init --recursive
+   18  pip install boto3 requests
+   19  -c "import boto3; print('boto3ok')"
+   20  python -c "import boto3; print('boto3 ok')"
+   21  python -c "import requests; print('requests OK')"
+   22  "from core.engine import SEALEngine; print('SEAL OK')"
+   23  python "from core.engine import SEALEngine; print('SEAL OK')"
+   24  clear
+   25  python -c 'import seal; print("SEAL Works!")'
+   26  cd /c/Users/gunan/Downloads/SEAL-Python
+   27  pwd
+   28  ls -la
+   29  python -c 'import seal; print("SEAL Works!")'
+   30  python -c 'from core.engine import SEALEngine; print("Engine Works!")'
+   31  cd ..
+   32  cd..
+   33  cd ..
+   34  python -c 'import boto3; print("boto3 version:", boto3.__version__)'
+   35  python -c 'import requests; print("requests version:", requests.__version__)' 
+   36  clear
+   37  pip install flask
+   38  python -c 'import flask; print("Flask version:", flask.__version__)'
+   39  python -c 'import app; print("✅ App import works")'
+   40  cd /c/Users/gunan/Downloads/SEAL-Python
+   41  python -c 'import flask; print("Flask version:", flask.__version__)'
+   42  python -c 'import app; print("✅ App import works")'
+   43  python -c 'from core.engine import SEALEngine; e = SEALEngine(scheme="bfv", poly_modulus_degree=1024); print("✅ BFV works")'
+   44  cd downloads
+   45  cd SEAL-Python
+   46  venv\Scripts\activate
+   47  python app.py
+   48  clear
+   49  cd downloads
+   50  cd..
+   51  cd../..
+   52  cd ..
+   53  cd ../..
+   54  clear
+   55  cd downloads
+   56   cd downloads
+   57  cd Downloads
+   58  cd ..
+   59  cd ..
+   60  cd Downloads
+   61  cd SEAL-Python
+   62  source venv/Scripts/activate
+   63  python app.py
+   64  cd Downloads
+   65  cd SEAL-Python
+   66  python app.py
+   67  git init
+   68  git remote add origin https://github.com/cloudwithsk/seal-py-project.git
+   69  git remote set-url origin https://github.com/cloudwithsk/seal-py-project.git
+   70  git push -u origin main
+   71  git pull origin main --allow-unrelated-histories
+   72  git config --global user.email "simrankaurwalia.o1@gmail.com" git config --global user.name "Simran Kaur"
+   73  git config --global user.email "simrankaurwalia.o1@gmail.com" 
+   74  git config --global user.name "Simran Kaur"
+   75  git pull origin main --allow-unrelated-histories
+   76  git add .
+   77  git reset
+   78  cat .gitignore
+   79     git add *.py *.md *.txt *.bat *.json
+   80  git add core/ data/ tests/ cloud/
+   81  git status
+   82  git add .gitignore
+   83  git commit -m "The main project setup with updated documentation"
+   84  git pull origin main --allow-unrelated-histories
+   85  git merge --abort
+   86  git status
+   87  git log --oneline
+   88  git checkout HEAD -- setup.py
+   89  git status
+   90  [200~rm "how --name-only HEAD~5..HEAD"~
+   91  rm "how --name-only HEAD~5..HEAD"
+   92  git diff setup.py   
+   93  git merge --abort
+   94  git reset --hard HEAD
+   95  git status
+   96  ls src
+   97  python setup.py build_ext --inplace && python -c 'import seal; print("Success")'
+   98  git checkout -- setup.py
+   99  python setup.py build_ext --inplace && python -c 'import seal; print("Success")'
+  100  git checkout HEAD^ -- setup.py
+  101  head -n 5 setup.py
+  102  rm -rf build/ && python setup.py build_ext --inplace
+  103  cd SEAL/build
+  104  rm - rf *
+  105  rm -rf *
+  106  cmake ..
+  107  rm -rf * 
+  108  cmake .. -DSEAL_USE_ZLIB=OFF -DSEAL_USE_MSGSL=OFF
+  109  rm -rf *
+  110  cmake .. -DSEAL_USE_ZLIB=OFF -DSEAL_USE_ZSTD=OFF -DSEAL_USE_MSGSL=OFF
+  111  cmake --build . --config Release
+  112  ls ../lib/Release/
+  113  ls ../build/lib/
+  114  ls ../build/lib/Release/
+  115  cd ~/Downloads/SEAL-Python 
+  116  python setup.py build_ext --inplace
+  117  cp SEAL/build/lib/Release/seal-4.1.lib SEAL/build/lib/
+  118  python setup.py build_ext --inplace
+  119  python -c "import seal; print('✅ SEAL Works')"
+  120  pip install -r requirements.txt
+  121  python app.py
+  122  python simple_fhe_test.py
+  123  python simple_fhe_test.py
+  124  cd ECD_api
+  125  python ECD_fhe_new.py
+  126  python ECD_fhe_new.py
+  127  python ECD_fhe
+  128  python ECD_fhe.py
+  129  cd .
+  130  . cd
+  131  cd ..
+  132  python simple_fhe_test.py
+  133  python simple_fhe_test.py
+  134  python simple_fhe_test.py
+  135  python simple_fhe_test.py
+  136  cd ECD_fhe.py
+  137  cd ECD_api
+  138  python ECD_fhe.py
+  139  python ECD_fhe_working.py
+  140  python ECD_fhe.py
+  141  python ECD_fhe_new.py
+  142  python ECD_fhe_configurable.py
+  143  python ECD_fhe.py
+  144  cd ECD_api
+  145  python ECD_fhe.py
+  146  python ECD_fhe.py
+  147  cd ECD_api
+  148  python ECD_fhe.py
+  149  cd ECD_api
+  150  python ECD_fhe.py
+  151  python ECD_fhe.py
+  152  python ECD_fhe.py
+  153  python ECD_fhe.py
+  154  cd ECD_api
+  155  python ECD_fhe.py
+  156  python ECD_fhe.py
+  157  python ECD_fhe.py
+  158  cd ECD_api
+  159  python ECD_fhe.py
+  160  python ECD_fhe.py
+  161  cd ECD_api
+  162  python ECD_fhe.py
+  163  python ECD_fhe.py
+  164  python ECD_fhe.py
+  165  python ECD_fhe.py
+  166  python ECD_fhe.py
+  167  python ECD_fhe.py
+  168  python ECD_fhe.py
+  169  python ECD_fhe.py
+  170  python ECD_fhe.py
+  171  python ECD_fhe.py
+  172  python ECD_fhe.py
+  173  python ECD_fhe.py
+  174  python ECD_fhe.py
+  175  python ECD_fhe.py
+  176  cd ECD_api
+  177  python ECD_fhe.py
+  178  python ECD_fhe.py
+  179  cd ECD_api
+  180  python ECD_fhe_simple.py
+  181  python ECD_fhe_simple.py
+  182  python ECD_fhe_simple.py
+  183  python ECD_fhe_simple.py
+  184  python ECD_fhe_new.py
+  185  python ECD_fhe_new.py
+  186  python ECD_fhe_new.py
+  187  python ECD_fhe_new.py
+  188  python ECD_fhe_new.py
+  189  python ECD_fhe_new.py
+  190  python ECD_fhe_new.py
+  191  python ECD_fhe_new.py
+  192  aws --version
+  193  aws --version
+  194  aws configure
+  195  aws configure
+  196  python run_cloud_tests.py
+  197  cd ~/Downloads/SEAL-Python
+  198  python run_cloud_tests.py
+  199  2
+  200  python run_cloud_tests.py
+  201  PYTHONIOENCODING=utf-8 python run_cloud_tests.py
+  202  python run_cloud_tests.py
+  203  cd cloud
+  204  python deploy_lambda.py
+  205  aws configure
+  206  aws sts get-caller-identity
+  207  notepad ~/.aws/credentials
+  208  aws sts get-caller-identity
+  209  notepad ~/.aws/credentials
+  210  aws sts get-caller-identity
+  211  notepad ~/.aws/credentials
+  212  aws sts get-caller-identity
+  213  python deploy_lambda.py
+  214  aws configure
+  215  notepad ~/.aws/credentials
+  216  notepad ~/.aws/credentials
+  217  aws sts get-caller-identity
+  218  cd Downloads/SEAL-Python
+  219  cd Cloud
+  220  python deploy_lambda.py
+  221  python deploy_lambda.py
+  222  sleep 30
+  223  aws lambda invoke --function-name fhe-computation --payload '{}' response.json
+  224  python cloud_fhe_client.py
+  225  python cloud_fhe_client.py
+  226  python cloud_fhe_client.py
+  227  python -c "import seal; print(seal.__version__)"
+  228  ls -la | grep -i seal
+  229  ls -la
+  230  ls -la ../ | grep -i seal
+  231  python -c "import sys; sys.path.append('..'); import seal; c = seal.Ciphertext(); print([m for m in dir(c) if 'save' in m.lower()])"
+  232  python cloud_fhe_client.py
+  233  python cloud_fhe_client.py
+  234  python cloud_fhe_client.py
+  235  python cloud_fhe_client.py
+  236  python deploy_seal_layer.py
+  237  python manual_seal_install.py
+  238  python cloud_fhe_client.py
+  239  python debug_lambda_response.py
+  240  python manual_seal_install.py
+  241  python manual_seal_install.py
+  242  python manual_seal_install.py
+  243  python fix_layer_conflict.py
+  244  python debug_lambda_response.py
+  245  python cloud_fhe_client.py
+  246  python test_real_fhe.py
+  247  cd ..
+  248  cd cloud
+  249  python extract_metrics.py
+  250  python extract_metrics.py
+  251  python cost_analysis.py
+  252  python cloud_fhe_client.py
+  253  python cloud_fhe_client.py
+  254* 
+  255  python cloud_fhe_client.py
+  256  python cloud_fhe_client.py
+  257  python cloud_fhe_client.py
+  258  python cloud_fhe_client.py
+  259  python cloud_fhe_client.py
+  260  python cloud_fhe_client.py
+  261  python get_lambda_logs.py
+  262  python get_lambda_logs.py
+  263  aws logs describe-log-groups --log-group-name-prefix "/aws/lambda/fhe-computation"
+  264  aws logs describe-log-groups --log-group-name-prefix "/aws/lambda/fhe-computation"
+  265  aws logs describe-log-groups
+  266  aws lambda get-function --function-name fhe-computation
+  267  aws cloudwatch get-metric-statistics --namespace AWS/Lambda --metric-name Duration --dimensions Name=FunctionName,Value=fhe-computation --start-time $(date -d '1 hour ago' --iso-8601) --end-time $(date --iso-8601) --period 300 --statistics Average
+  268  aws cloudwatch get-metric-statistics --namespace AWS/Lambda --metric-name Duration --dimensions Name=FunctionName,Value=fhe-computation --start-time 2025-08-02T18:00:00Z --end-time 2025-08-02T20:00:00Z --period 300 --statistics Average
+  269  aws cloudwatch get-metric-statistics --namespace AWS/Lambda --metric-name Invocations --dimensions Name=FunctionName,Value=fhe-computation --start-time 2025-08-02T18:00:00Z --end-time 2025-08-02T20:00:00Z --period 300 --statistics Sum
+  270  aws logs filter-log-events --log-group-name "/aws/lambda/fhe-computation" --start-time $(date -d '1 hour ago' +%s)000
+  271  history
+  272  history > aws_cloud_integration.txt
